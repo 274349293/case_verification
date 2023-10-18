@@ -6,7 +6,6 @@ from dataclasses import dataclass, field
 
 @dataclass
 class DatasetAttr:
-
     load_from: str
     dataset_name: str
     dataset_sha1: Optional[str] = None
@@ -75,7 +74,7 @@ class DataArguments:
         metadata={"help": "Proportion of the dataset to include in the development set, should be between 0.0 and 1.0."}
     )
 
-    def init_for_training(self): # support mixing multiple datasets
+    def init_for_training(self):  # support mixing multiple datasets
         dataset_names = [ds.strip() for ds in self.dataset.split(",")]
         with open(os.path.join(self.dataset_dir, "dataset_info.json"), "r", encoding="utf-8") as f:
             dataset_info = json.load(f)

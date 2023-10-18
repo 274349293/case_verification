@@ -178,6 +178,14 @@
       "history": "history"
     }
   },
+  "oka_case_zh": {
+    "file_name": "case_data.json",
+    "columns": {
+      "prompt": "instruction",
+      "query": "input",
+      "response": "output"
+    }
+  },
   "oaast_rm_zh": {
     "file_name": "oaast_rm_zh.json",
     "file_sha1": "1065af1f3784dd61be5e79713a35f427b713a232",

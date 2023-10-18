@@ -2,16 +2,14 @@ import json
 import datasets
 from typing import Any, Dict, List
 
-
 _DESCRIPTION = "An example of dataset for ChatGLM."
 _CITATION = ""
 _HOMEPAGE = ""
 _LICENSE = ""
-_URL = "examples.json"
+_URL = "../MedBrain/case_data.json"
 
 
 class ExampleDataset(datasets.GeneratorBasedBuilder):
-
     VERSION = datasets.Version("0.0.0")
 
     def _info(self) -> datasets.DatasetInfo:
