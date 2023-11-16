@@ -1,10 +1,10 @@
 {
-    "predict_accuracy": 0.0,
-    "predict_bleu-4": 10.932251999999998,
-    "predict_rouge-1": 26.836897999999998,
-    "predict_rouge-2": 15.663217999999999,
-    "predict_rouge-l": 16.356996,
-    "predict_runtime": 133.2856,
-    "predict_samples_per_second": 0.375,
-    "predict_steps_per_second": 0.053
+    "predict_accuracy": 1.0,
+    "predict_bleu-4": 35.3553,
+    "predict_rouge-1": 100.0,
+    "predict_rouge-2": 0.0,
+    "predict_rouge-l": 100.0,
+    "predict_runtime": 17.0047,
+    "predict_samples_per_second": 2.94,
+    "predict_steps_per_second": 0.412
 }
